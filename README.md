@@ -29,3 +29,6 @@ install PC with homebrew
   - brew cask install font-hack-nerd-font
 
 vimのTerminal対策として、$ZDOTDIR配下に.zshrcへのリンク作成
+
+.cache/dein/repos/github.com/previm/previm/_/index.htmlを修正してる
+`ln -s ~/.ghq/github.com/kowwwwji/dotfiles/.config/nvim/plugins ~/.config/nvim/plugins`
