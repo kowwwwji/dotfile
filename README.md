@@ -1,8 +1,8 @@
 # dotfile
 
-cp ./vscode/keybindings.json ~/Library/ApplicationSupport/Code/User/keybindings.json
+`cp ./vscode/keybindings.json ~/Library/ApplicationSupport/Code/User/keybindings.json`
 
-cp ./vscode/settings.json ~/Library/ApplicationSupport/Code/User/settings.json
+`cp ./vscode/settings.json ~/Library/ApplicationSupport/Code/User/settings.json`
 
 install nvm with git  
 
@@ -32,3 +32,4 @@ vimのTerminal対策として、$ZDOTDIR配下に.zshrcへのリンク作成
 
 .cache/dein/repos/github.com/previm/previm/_/index.htmlを修正してる
 `ln -s ~/.ghq/github.com/kowwwwji/dotfiles/.config/nvim/plugins ~/.config/nvim/plugins`
+.configのリンク

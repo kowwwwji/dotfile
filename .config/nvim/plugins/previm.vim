@@ -4,6 +4,5 @@ let g:previm_custom_css_path = '~/.ghq/github.com/kowwwwji/dotfiles/.template/gi
 augroup PrevimSettings
   autocmd!
   autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
-  nnoremap <silent> <C-m> :PrevimOpen<CR>
-  nunmap <CR>
+  nnoremap <leader>o :PrevimOpen<CR>
 augroup END
